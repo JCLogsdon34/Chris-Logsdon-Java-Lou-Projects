@@ -1,0 +1,95 @@
+2018-02-14T13:43:45.763 : createOrder: 2018-02-14T13:43:45.759LogsdonOrder Date: 04/18/1990 |Order Name: Chris |Order Number: null|Area: 33|State: KY|Product Type: Tile|Material Cost: null|Labor Cost: null |Total: null
+2018-02-14T14:57:14.811 : createOrder: 2018-02-14T14:57:14.80604/18/2018Order Date: 04/18/2018 |Order Name: Logsdon |Order Number: null|Area: 33|State: KY|Product Type: Tile|Material Cost: null|Labor Cost: null |Total: null
+2018-02-16T15:47:13.039 : createOrder just threw an exception (FlooringDataValidationException)
+2018-02-16T15:47:13.044 : And these were it's arguments: 
+2018-02-16T15:47:13.044 : 1) String: 060120132018-02-16T15:47:13.044
+2018-02-16T15:47:13.045 : 2) Order: Order Date: 06012013 |Order Name: Logsdon |Order Number: |Area: 200.00|Material Cost: 1030.00|Labor Cost: 950.00|Tax Amount: 12375.00 |Total: 14355.002018-02-16T15:47:13.044
+2018-02-22T15:52:01.762 : computeProductCosts just threw an exception (FlooringTaxException)
+2018-02-22T15:52:01.778 : And these were it's arguments: 
+2018-02-22T15:52:01.778 : 1) Order: Order Date: 02222018 |Order Name: Lucius Antonius Mosca |Order Number: |Area: 101|Material Cost: null|Labor Cost: null|Tax Amount: null |Total: null2018-02-22T15:52:01.778
+2018-02-22T15:52:36.080 : getOrder just threw an exception (FlooringBadDateException)
+2018-02-22T15:52:36.080 : And these were it's arguments: 
+2018-02-22T15:52:36.080 : 1) String: 022220182018-02-22T15:52:36.080
+2018-02-22T15:52:36.080 : 2) String: 42018-02-22T15:52:36.080
+2018-02-22T15:58:30.028 : computeProductCosts just threw an exception (FlooringTaxException)
+2018-02-22T15:58:30.028 : And these were it's arguments: 
+2018-02-22T15:58:30.028 : 1) Order: Order Date: 02222018 |Order Name: Lucius Antonius Mosca |Order Number: |Area: 101|Material Cost: null|Labor Cost: null|Tax Amount: null |Total: null2018-02-22T15:58:30.028
+2018-02-22T18:50:18.443 : computeProductCosts just threw an exception (FlooringTaxException)
+2018-02-22T18:50:18.445 : And these were it's arguments: 
+2018-02-22T18:50:18.446 : 1) Order: Order Date: 02222018 |Order Name: Lucius Antonius Cotta |Order Number: |Area: 101|Material Cost: null|Labor Cost: null|Tax Amount: null |Total: null2018-02-22T18:50:18.445
+2018-02-22T19:07:56.149 : computeProductCosts just threw an exception (FlooringTaxException)
+2018-02-22T19:07:56.152 : And these were it's arguments: 
+2018-02-22T19:07:56.153 : 1) Order: Order Date: 02222018 |Order Name: Lucius |Order Number: |Area: 101|Material Cost: null|Labor Cost: null|Tax Amount: null |Total: null2018-02-22T19:07:56.153
+2018-02-22T19:14:40.158 : computeProductCosts just threw an exception (FlooringTaxException)
+2018-02-22T19:14:40.162 : And these were it's arguments: 
+2018-02-22T19:14:40.163 : 1) Order: Order Date: 02222018 |Order Name: Lucius |Order Number: |Area: 101|Material Cost: null|Labor Cost: null|Tax Amount: null |Total: null2018-02-22T19:14:40.163
+2018-02-22T19:20:04.051 : computeProductCosts just threw an exception (FlooringTaxException)
+2018-02-22T19:20:04.057 : And these were it's arguments: 
+2018-02-22T19:20:04.058 : 1) Order: Order Date: 02222018 |Order Name: Lucius |Order Number: |Area: 101|Material Cost: null|Labor Cost: null|Tax Amount: null |Total: null2018-02-22T19:20:04.058
+2018-02-22T19:27:36.480 : computeProductCosts just threw an exception (FlooringTaxException)
+2018-02-22T19:27:36.496 : And these were it's arguments: 
+2018-02-22T19:27:36.496 : 1) Order: Order Date: 02222018 |Order Name: Lucius |Order Number: |Area: 101|Material Cost: null|Labor Cost: null|Tax Amount: null |Total: null2018-02-22T19:27:36.496
+2018-02-22T19:53:01.933 : computeProductCosts just threw an exception (FlooringTaxException)
+2018-02-22T19:53:01.933 : And these were it's arguments: 
+2018-02-22T19:53:01.948 : 1) Order: Order Date: 02222018 |Order Name: Lucius Anontius |Order Number: |Area: 101|Material Cost: null|Labor Cost: null|Tax Amount: null |Total: null2018-02-22T19:53:01.948
+2018-02-22T19:55:47.444 : computeProductCosts just threw an exception (FlooringTaxException)
+2018-02-22T19:55:47.444 : And these were it's arguments: 
+2018-02-22T19:55:47.444 : 1) Order: Order Date: 02222018 |Order Name: Lucius Aontonius |Order Number: |Area: 101|Material Cost: null|Labor Cost: null|Tax Amount: null |Total: null2018-02-22T19:55:47.444
+2018-02-22T20:10:25.637 : computeProductCosts just threw an exception (FlooringTaxException)
+2018-02-22T20:10:25.637 : And these were it's arguments: 
+2018-02-22T20:10:25.653 : 1) Order: Order Date: 02222018 |Order Name: Lucius Antonius |Order Number: |Area: 101|Material Cost: null|Labor Cost: null|Tax Amount: null |Total: null2018-02-22T20:10:25.637
+2018-02-22T20:13:21.109 : computeProductCosts just threw an exception (FlooringTaxException)
+2018-02-22T20:13:21.109 : And these were it's arguments: 
+2018-02-22T20:13:21.109 : 1) Order: Order Date: 02222018 |Order Name: Lucius Antonius |Order Number: |Area: 101|Material Cost: null|Labor Cost: null|Tax Amount: null |Total: null2018-02-22T20:13:21.109
+2018-02-22T21:01:17.932 : computeProductCosts just threw an exception (FlooringProductException)
+2018-02-22T21:01:17.932 : And these were it's arguments: 
+2018-02-22T21:01:17.932 : 1) Order: Order Date: 02222018 |Order Name: Lucius Antonius |Order Number: |Area: 101|Material Cost: null|Labor Cost: null|Tax Amount: null |Total: null2018-02-22T21:01:17.932
+2018-02-22T21:24:02.227 : getOrder just threw an exception (FlooringBadDateException)
+2018-02-22T21:24:02.243 : And these were it's arguments: 
+2018-02-22T21:24:02.243 : 1) String: 022020182018-02-22T21:24:02.243
+2018-02-22T21:24:02.243 : 2) String: 22018-02-22T21:24:02.243
+2018-02-22T21:31:28.090 : getOrder just threw an exception (FlooringBadDateException)
+2018-02-22T21:31:28.106 : And these were it's arguments: 
+2018-02-22T21:31:28.106 : 1) String: 022220182018-02-22T21:31:28.106
+2018-02-22T21:31:28.106 : 2) String: 22018-02-22T21:31:28.106
+2018-02-22T21:33:55.395 : getOrder just threw an exception (FlooringBadDateException)
+2018-02-22T21:33:55.411 : And these were it's arguments: 
+2018-02-22T21:33:55.411 : 1) String: 022220182018-02-22T21:33:55.411
+2018-02-22T21:33:55.411 : 2) String: 22018-02-22T21:33:55.411
+2018-02-22T21:38:50.117 : getOrder just threw an exception (FlooringBadDateException)
+2018-02-22T21:38:50.136 : And these were it's arguments: 
+2018-02-22T21:38:50.136 : 1) String: 022220182018-02-22T21:38:50.136
+2018-02-22T21:38:50.137 : 2) String: 22018-02-22T21:38:50.137
+2018-02-22T21:41:01.111 : getOrder just threw an exception (FlooringBadDateException)
+2018-02-22T21:41:01.115 : And these were it's arguments: 
+2018-02-22T21:41:01.116 : 1) String: 022220182018-02-22T21:41:01.116
+2018-02-22T21:41:01.116 : 2) String: 22018-02-22T21:41:01.116
+2018-02-22T21:54:16.323 : getOrder just threw an exception (FlooringBadDateException)
+2018-02-22T21:54:16.327 : And these were it's arguments: 
+2018-02-22T21:54:16.328 : 1) String: 022220182018-02-22T21:54:16.327
+2018-02-22T21:54:16.328 : 2) String: 22018-02-22T21:54:16.328
+2018-02-22T22:01:57.531 : createOrder: 2018-02-22T22:01:57.52702222018Order Date: 02222018 |Order Name: Lucius |Order Number: 4|Area: 100|Material Cost: 350.00|Labor Cost: 415.00|Tax Amount: 5163.75 |Total: 5928.75
+2018-02-23T11:04:43.806 : createOrder: 2018-02-23T11:04:43.80202012018Order Date: 02012018 |Order Name: Lucius Vorrenus |Order Number: 3|Area: 101|Material Cost: 520.15|Labor Cost: 479.75|Tax Amount: 6749.33 |Total: 7749.23
+2018-02-23T11:05:09.380 : createOrder: 2018-02-23T11:05:09.38002012018Order Date: 02012018 |Order Name: Titus Pullo |Order Number: 8|Area: 101|Material Cost: 353.50|Labor Cost: 419.15|Tax Amount: 5215.39 |Total: 5988.04
+2018-02-23T11:06:16.233 : createOrder: 2018-02-23T11:06:16.23002012018Order Date: 02012018 |Order Name: Titus Pullo |Order Number: 4|Area: 100|Material Cost: 350.00|Labor Cost: 415.00|Tax Amount: 4398.75 |Total: 5163.75
+2018-02-23T11:19:35.476 : createOrder: 2018-02-23T11:19:35.46402012018Order Date: 02012018 |Order Name: Lucius Antonius |Order Number: 3|Area: 101|Material Cost: 520.15|Labor Cost: 479.75|Tax Amount: 6749.33 |Total: 7749.23
+2018-02-23T11:38:51.315 : createOrder: 2018-02-23T11:38:51.31502012018Order Date: 02012018 |Order Name: Titus  Pullo |Order Number: 4|Area: 100|Material Cost: 515.00|Labor Cost: 475.00|Tax Amount: 5692.50 |Total: 6682.50
+2018-02-23T11:50:48.158 : createOrder: 2018-02-23T11:50:48.14002012018Order Date: 02012018 |Order Name: Titus Pullo |Order Number: 4|Area: 100|Material Cost: 515.00|Labor Cost: 475.00|Tax Amount: 6682.50 |Total: 7672.50
+2018-02-23T12:40:51.061 : createOrder: 2018-02-23T12:40:51.06102012018Order Date: 02012018 |Order Name: Titus Pullo |Order Number: 3|Area: 100|Material Cost: 350.00|Labor Cost: 415.00|Tax Amount: 5163.75 |Total: 5928.75
+2018-02-23T12:42:02.997 : createOrder: 2018-02-23T12:42:02.99702012018Order Date: 02012018 |Order Name: Lucius Cornelius Sulla |Order Number: 4|Area: 100|Material Cost: 225.00|Labor Cost: 210.00|Tax Amount: 2610.00 |Total: 3045.00
+2018-02-23T12:42:41.447 : removeOrder: 2018-02-23T12:42:41.447020120184
+2018-02-23T12:46:30.736 : removeOrder: 2018-02-23T12:46:30.736020120184
+2018-02-23T13:38:48.554 : editOrder: 2018-02-23T13:38:48.551020120182Order Date: 02012018 |Order Name: Lucius Vorrenus |Order Number: 2|Area: 101.00|Material Cost: 520.15|Labor Cost: 479.75|Tax Amount: 6749.33 |Total: 7749.23
+2018-02-23T13:42:34.763 : computeProductCosts just threw an exception (FlooringDataValidationException)
+2018-02-23T13:42:34.766 : And these were it's arguments: 
+2018-02-23T13:42:34.767 : 1) Order: Order Date: 03012018 |Order Name: Romulus |Order Number: |Area: 101|Material Cost: null|Labor Cost: null|Tax Amount: null |Total: null2018-02-23T13:42:34.767
+2018-02-23T13:46:17.928 : createOrder: 2018-02-23T13:46:17.92403012018Order Date: 03012018 |Order Name: Decimus |Order Number: 4|Area: 100|Material Cost: 225.00|Labor Cost: 210.00|Tax Amount: 2936.25 |Total: 3371.25
+2018-02-23T14:09:20.551 : editOrder: 2018-02-23T14:09:20.547020120182Order Date: 02012018 |Order Name: Lucius Vorrenus |Order Number: 2|Area: 101.00|Material Cost: 520.15|Labor Cost: 479.75|Tax Amount: 6749.33 |Total: 7749.23
+2018-02-23T14:10:01.648 : removeOrder: 2018-02-23T14:10:01.641020120182
+2018-02-23T14:10:42.694 : editOrder: 2018-02-23T14:10:42.694020120182Order Date: 02012018 |Order Name: Lucius Antonius |Order Number: 2|Area: 101.00|Material Cost: 520.15|Labor Cost: 479.75|Tax Amount: 6749.33 |Total: 7749.23
+2018-02-23T15:04:38.819 : computeProductCosts just threw an exception (FlooringProductException)
+2018-02-23T15:04:38.819 : And these were it's arguments: 
+2018-02-23T15:04:38.819 : 1) Order: Order Date: 03012018 |Order Name: Minions |Order Number: |Area: 100|Material Cost: null|Labor Cost: null|Tax Amount: null |Total: null2018-02-23T15:04:38.819
+2018-02-23T15:05:41.592 : createOrder: 2018-02-23T15:05:41.59203022018Order Date: 03022018 |Order Name: Lucius Antonius Hybridia |Order Number: 4|Area: 100|Material Cost: 350.00|Labor Cost: 415.00|Tax Amount: 4781.25 |Total: 5546.25
+2018-02-23T15:09:13.261 : removeOrder: 2018-02-23T15:09:13.261020120182
+2018-02-23T15:15:48.196 : editOrder: 2018-02-23T15:15:48.196020120182Order Date: 02012018 |Order Name: Lucius Vorrenus |Order Number: 2|Area: 1000.00|Material Cost: 520.15|Labor Cost: 479.75|Tax Amount: 6749.33 |Total: 7749.23

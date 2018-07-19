@@ -1,0 +1,114 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.mycompany.addressbooklou.ui;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author JCLog
+ */
+public class UserIOConsoleImpl implements UserIO{
+    
+     Scanner userInput = new Scanner(System.in);
+
+    @Override
+    public void print(String message) {
+        System.out.println(message);
+    }
+
+    @Override
+    public double readDouble(String prompt) {
+        double myDouble = 0;
+        String stringDouble = "";
+        System.out.println(prompt);
+        stringDouble = userInput.nextLine();
+        myDouble = Double.parseDouble(stringDouble);
+        return myDouble;
+    }
+
+    @Override
+    public double readDouble(String prompt, double min, double max) {
+        double myDouble = 0;
+        String stringDouble = "";
+        System.out.println(prompt + " " + min + " " + max);
+        stringDouble = userInput.nextLine();
+        myDouble = Double.parseDouble(stringDouble);
+        return myDouble;
+    }
+
+    @Override
+    public float readFloat(String prompt) {
+        float myFloat = 0;
+        String floatString = "";
+        System.out.println(prompt);
+        floatString = userInput.nextLine();
+        myFloat = Float.parseFloat(floatString);
+        return myFloat;
+    }
+
+    @Override
+    public float readFloat(String prompt, float min, float max) {
+        float myFloat = 0;
+        String floatString = "";
+        System.out.println(prompt + " " + min + " " + max);
+        floatString = userInput.nextLine();
+        myFloat = Float.parseFloat(floatString);
+        return myFloat;
+    }
+
+    @Override
+    public int readInt(String prompt) {
+        int myInt = 0;
+        String stringInt = "";
+        System.out.println(prompt);
+        stringInt = userInput.nextLine();
+        myInt = Integer.parseInt(stringInt);
+        return myInt;
+    }
+
+    @Override
+    public int readInt(String prompt, int min, int max) {
+        int myInt = 0;
+        String stringInt = "";
+        System.out.println(prompt + " " + min + " " + max);
+        stringInt = userInput.nextLine();
+        myInt = Integer.parseInt(stringInt);
+        return myInt;
+    }
+
+    @Override
+    public long readLong(String prompt) {
+        long myLong = 0;
+        String longString = "";
+        System.out.println(prompt);
+        longString = userInput.nextLine();
+        myLong = Long.parseLong(longString);
+        return myLong;
+    }
+
+    @Override
+    public long readLong(String prompt, long min, long max) {
+        long myLong = 0;
+        String longString = "";
+        System.out.println(prompt + " " + min + " " + max);
+        longString = userInput.nextLine();
+        myLong = Long.parseLong(longString);
+        return myLong;
+    }
+
+    @Override
+    public String readString(String prompt) {
+        String userString;
+        do {
+            System.out.println(prompt);
+            userString = userInput.nextLine();
+        } while (userString.isEmpty());
+        return userString;
+    }
+    
+    
+}

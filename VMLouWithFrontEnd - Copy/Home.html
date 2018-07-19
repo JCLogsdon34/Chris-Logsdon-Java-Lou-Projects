@@ -1,0 +1,128 @@
+﻿	<!DOCTYPE html>
+
+	<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8" />
+		<title>Home</title>
+		<link rel="stylesheet" type="text/css" href="Home.css" title="style">
+		<link rel="icon" href="http://getbootstrap.com/favicon.ico">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link href="http://getbootstrap.com/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+		<link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+	
+		<div class="container">
+
+			<h1 id="mainHeading"> Vending Machine </h1>
+			   <hr>
+			   <form class="form-horizontal" role="form" id="add-form" method="Post">
+			</br>
+			</br>
+			<div class="col-md-8">
+
+			   <div class="form-group">
+			   <div class="row">
+					   <button id="itemOne" type="button" >First Button</button>
+
+					   <button id="itemTwo" type="button">New Button</button>
+
+
+					   <button id="itemThree" type="button">New Button</button>
+					   </div>
+						</br>
+
+			 <div class="row">
+					
+					<button id="itemFour" type="button">Second Button</button>
+
+
+					<button id="itemFive" type="button">New Button</button>
+
+
+					<button id="itemSix" type="button">New Button</button>
+
+
+		   			 <button id="itemSeven" type="button">New Button</button>
+
+			 
+					</div>
+					</br>
+
+					<div class="row">
+							<button id="itemEight" type="button">Third Button</button>
+
+							<button id="itemNine" type="button">New Button</button>
+
+							<button id="itemTen" type="button">New Button</button>
+
+							</div>
+					</div>
+				
+					</br>
+				</br>
+				</br>
+		   		
+				<div class="col-md-4">
+
+				<div id="coins">
+				   <label ="add-payment-money" class="col-md-4 control-label">Total $ in: </label> </br>
+				  <input type="text" class="form-control" id="add-payment-money"  required/> </br>
+	
+				  <center>
+			
+				  <button id="addPenny" type="button" ​onclick="msg()"> Add Penny</button> 
+			
+				  <button id="addNickel" type="button" ​onclick="msg()">Add Nickel</button> </br>
+	
+				  <button id="addDime" type="button" ​onclick="msg()">Add Dime</button>
+
+
+				  <button id="addQuarter" type="button" ​onclick="msg()">Add Quarter</button></br>
+
+				  </center>
+	
+				  <hr>
+				</div> 
+
+				</br>
+				</br>
+				</br>
+
+
+				<div id ="itemCodes">
+				<label ="add-selection" class="col-md-4 control-label">Messages: </label>
+				  <input type="text" class="form-control" id="add-message"  required/>
+				  <label ="add-selection" class="col-md-4 control-label">Item: </label> 
+				   <input type="text" class="form-control" id="add-item"  required/> </br>
+				   <center>
+				   <button id="purchase" type="button" onclick="msg()">Make Purchase</button> </br>
+				   </center>
+				   <hr>
+				</div>
+				</br>
+				</br>
+
+				<div id="returnChange"> </br>
+				<label ="change" class="col-md-4 control-label">Change: </label> </br>
+				<center>
+				  <input type="text" class="form-control" id="change"  required/> </br>
+				  <button id="change" type="button">Change Return </button>
+				  </center>
+				  <hr>
+				</br>
+				</br>
+				</div>
+				</div>
+
+	</form>
+	</div>
+		<script src="js/jquery-2.2.4.min.js"></script>
+		<script src="home.js"></script>
+	</body>
+	</html>

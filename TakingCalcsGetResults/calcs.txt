@@ -1,0 +1,10 @@
+Add::30::55
+Divide::40::20
+Multiply::6::500.1
+Subtract::7::1
+Subtract::5::2
+Add::1::1
+Multiply::2::7
+Divide::16::4
+Multiply::2::4
+Add::4::8

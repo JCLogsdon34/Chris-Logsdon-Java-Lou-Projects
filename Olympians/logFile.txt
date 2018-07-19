@@ -1,0 +1,6 @@
+******* NEW LOGGING SESSION *******
+compete took this long : 1ms
+compete took this long : 0ms
+compete took this long : 0ms
+competeInEvent just threw an exception (NullPointerException)
+And these were it's arguments: 

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/mvc
+ http://www.springframework.org/schema/mvc/spring-mvc.xsd
+ http://www.springframework.org/schema/tx
+ http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context.xsd
+ http://www.springframework.org/schema/aop
+ http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
+    <!-- BEANS START HERE -->
+    
+    <!-- writing a bean is like declaring a variable -->
+    <!-- if I was going to declare an event it would be type: Event name:whatever
+        aka: Event anEvent, or in this case AtomSmashing crazyNuclearPhysicsEevent; -->
+    <!-- REMEMBER, we have to build these, via the constructor. So you HAVE to pick a concrete class for class. -->
+    <bean class="com.tsguild.olympians.event.AtomSmashing"   id="crazyNuclearPhysicsEventBean" />
+    
+    <!-- when you use a self closing bean element - you are using a NO ARGS, or DEFAULT constructor to build the class object -->
+    <bean class="com.tsguild.olympians.event.CowTipping"     id="mooTasticTime" />
+    <bean class="com.tsguild.olympians.event.ExtremeCurling" id="canadiansGoWild" />
+    <bean class="com.tsguild.olympians.event.LlamaJousting"  id="spittingAndSticks" />
+    <bean class="com.tsguild.olympians.event.MidgetSprinting"   id="tinyRunning" />
+    <bean class="com.tsguild.olympians.event.RaceCarDriving" id="carsLotsOfCars" />
+    
+    <!-- when you have a constructor that requires parameters, you have to put in constructor-arg child elements -->
+    <bean class="com.tsguild.olympians.Olympian" id="peruvianLlamaJouster">
+        <constructor-arg ref="spittingAndSticks"/>
+        <property name="country" value="Peru"/>
+    </bean>
+    
+    <bean class="com.tsguild.olympians.Olympian" id="cowTipperJimbo">
+        <constructor-arg ref="mooTasticTime"/>
+        <property name="country" value="Arkansas"/>
+        <property name="name" value="Jimbo"/>
+    </bean>
+    
+    <!-- this Olympian has a bean variable name of 'nigelTheExtremeCurler' -->
+    <bean class="com.tsguild.olympians.Olympian" id="nigelTheExtremeCurler">
+        <constructor-arg ref="canadiansGoWild"/><!-- this Olympian will compete in EXTREME CURLING! -->
+        <property name="country" value="Canadia"/><!-- this Olympian's country will now be Canadia -->
+        <property name="name" value="Nigel"/> <!-- this Olympian's name will now be Nigel -->
+    </bean>
+    
+    <bean class="com.tsguild.olympians.aspects.DearAbby" id="abbyBean">
+        <!-- We don't need any other info, because DearAbby just has a default constructor-->
+    </bean>
+    
+    <bean class="com.tsguild.olympians.aspects.PersistentLogger" id="loggerBean"/>
+    
+    <!-- aop:config is the beginning of the advice application -->
+    <aop:config>
+        <!-- for ever separate main object aspecty thing, you need a new aop:aspect node-->
+        <aop:aspect ref="abbyBean">
+            <!-- then for each point cut, write another aop:<timing> -->
+            <aop:before method="recommendGoodNightSleep"
+                        pointcut="execution(* com.tsguild.olympians.Olympian.competeInEvent(..))" />
+            <aop:after method="sendThemToDisneyLand"
+                        pointcut="execution(* com.tsguild.olympians.Olympian.competeInEvent(..))" />
+            
+            
+            
+        </aop:aspect>
+        <aop:aspect ref="loggerBean">
+            <aop:around method="logHowLongMethodTakes"
+                    pointcut="execution(* *.compete(..))"/>
+            
+            <aop:after-throwing method="logExceptions"
+                                throwing="ex"
+                                pointcut="execution(* *.competeInEvent(..))"/>
+        </aop:aspect>
+        
+    </aop:config>
+
+
+    <!-- OMG NO BEANS PAST THIS POINT -->
+</beans>
